@@ -1,0 +1,22 @@
+//
+//  Definitions.swift
+//  Calculator
+//
+//  Created by Mike Piao on 5/28/16.
+//  Copyright © 2016 ShirleyChen. All rights reserved.
+//
+
+
+import CoreBluetooth
+
+let TRANSFER_SERVICE_UUID = "E20A39F4-73F5-4BC4-A12F-17D1AD666661"
+let TRANSFER_CHARACTERISTIC_UUID = "08590F7E-DB05-467E-8757-72F6F66666D4"
+let NOTIFY_MTU = 20
+
+let transferServiceUUID = CBUUID(string: TRANSFER_SERVICE_UUID)
+let transferCharacteristicUUID = CBUUID(string: TRANSFER_CHARACTERISTIC_UUID)
+
+let TRANSFER_SERVICE_UUID_1 = "7D835B79-710A-4326-8E62-CBD49A076ACB"
+let TRANSFER_CHARACTERISTIC_UUID_1 = "AA1A295B-A16B-41D9-A521-F326607D0617"
+let transferServiceUUID_1 = CBUUID(string: TRANSFER_SERVICE_UUID_1)
+let transferCharacteristicUUID_1 = CBUUID(string: TRANSFER_CHARACTERISTIC_UUID_1)
